@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Publications</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Bell MT", Georgia, serif;
+        background-color: #f9f9f6;
+        color: #222;
+        line-height: 1.6;
+        position: relative;
+        min-height: 100vh;
+      }
+
+      /* Banner Styles */
+      .banner {
+        background: url("/Images/fe-klee2.jpg") bottom/cover no-repeat;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav-overlay {
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 0.8rem 2rem;
+        border-radius: 12px;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .nav-overlay a {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #004466;
+        text-decoration: none;
+        transition: font-weight 0.2s;
+      }
+
+      .nav-overlay a:hover {
+        font-weight: bold;
+      }
+
+      .background-image {
+        background-image: url("/Images/fe-klee2.jpg");
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.15;
+      }
+
+      .content {
+        max-width: 700px;
+        margin: auto;
+        padding: 2rem 1rem;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 2rem 0;
+        font-size: 1.6rem;
+      }
+
+      .publication-box {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+        line-height: 1.4;
+      }
+
+      .publication-box h2 {
+        margin-top: 0;
+        margin-bottom: 0.3rem;
+        font-size: 1.2rem;
+      }
+
+      .publication-box p {
+        margin: 0.2rem 0;
+      }
+
+      a {
+        color: #0056a3;
+        text-decoration: none;
+      }
+
+      .back-link {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 0.95rem;
+      }
+      footer {
+        margin-top: 4rem;
+        padding: 2rem;
+        border-top: 1px solid #ccc;
+        text-align: center;
+        font-size: 0.95rem;
+      }
+
+      footer a {
+        margin: 0 0.8rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Banner -->
+    <div class="banner">
+      <nav class="nav-overlay">
+        <a href="/Chatgptwebsite.html">About</a>
+        <a href="/Publications.html">Publications</a>
+        <a href="/PDF.html">CV</a>
+        <a href="/consulting.html">Consulting</a>
+      </nav>
+    </div>
+
+    <!-- Background Image Layer -->
+    <div class="background-image"></div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <h1>Academic Publications</h1>
+
+      <div class="publication-box">
+        <h2>"Cosmic Society: Language and Economy in Walter Benjamin"</h2>
+        <p>Kieran Brown</p>
+        <p>
+          <em>Angelaki: Journal of Theoretical Humanities</em> (forthcoming)
+        </p>
+        <p>
+          This paper examines the intersection of language and economy in the
+          writings of Walter Benjamin.
+        </p>
+      </div>
+
+      <div class="publication-box">
+        <h2>
+          "Faux Apparitions: Angels or Cannibals, Between Coetzee and Defoe"
+        </h2>
+        <p>Kieran Brown</p>
+        <p><em>Critique: Studies in Contemporary Fiction</em> (2024)</p>
+        <p>
+          This article reexamines the relationship between J.M. Coetzee's
+          <em>Foe</em> and Daniel Defoe's <em>Robinson Crusoe</em>.
+          <a
+            href="https://www.tandfonline.com/doi/metrics/10.1080/00111619.2024.2338829?scroll=top#metrics-views"
+            target="_blank"
+            >View Here</a
+          >
+        </p>
+      </div>
+
+      <div class="publication-box">
+        <h2>
+          <em
+            >Inflationary Modernities: Literature, Culture and Economy after
+            1789</em
+          >
+        </h2>
+        <p>Kieran Brown & Wayne Stables <strong>(editors)</strong></p>
+        <p><em>Palgrave Macmillan</em> (forthcoming)</p>
+        <p>
+          Collecting 10 chapters from different authors, this book examines
+          inflation from various perspectives outside neo-classical economics.
+        </p>
+      </div>
+
+      <div class="publication-box">
+        <h2>"Mark of Shame: On the Surface of the Weimar Hyperinflation"</h2>
+        <p>Kieran Brown</p>
+        <p>In <em>Inflationary Modernities</em> (forthcoming)</p>
+        <p>
+          This chapter theorises the links between the experience of shame and
+          inflation during the Weimar hyperinflation.
+        </p>
+      </div>
+
+      <h1>Selected Conferences and Talks (2025)</h1>
+
+      <div class="publication-box">
+        <h2>"Uprising Marks: Walter Benjamin, Inflation and Bare Life"</h2>
+        <p><em>Money Talks: Futures for the Economics Humanities</em> (2025)</p>
+        <p>University of Edinburgh</p>
+        <a
+          href="https://llc.ed.ac.uk/english-and-scottish-literature/money-talks-conference"
+        >
+          Link Here</a
+        >
+      </div>
+
+      <div class="publication-box">
+        <h2>"Holy Nomads: Gillian Rose, Edgar Allan Poe"</h2>
+        <p><em>Broken Middles</em> panel at ACLA (2025)</p>
+        <p>University of Toronto</p>
+      </div>
+
+      <div class="publication-box">
+        <h2>"Mark of Shame: On the Surface of the Weimar Hyperinflation"</h2>
+        <p><em>London Modernism Seminar</em> (2025)</p>
+        <p>
+          Institute of English Studies (KCL; Queen Mary; North Eastern UL; Royal
+          Holloway UL)
+        </p>
+        <a
+          href="https://ies.sas.ac.uk/events/inflationary-modernisms-modernism-and-money"
+        >
+          Link Here</a
+        >
+      </div>
+
+      <div class="publication-box">
+        <h2><em>Broken Middles</em></h2>
+        <p>co-organiser of ACLA Panel (2025)</p>
+        <p>University of Toronto</p>
+        <a
+          href="https://www.acla.org/virtual-conference/session/broken_middles"
+        >
+          Link Here</a
+        >
+      </div>
+    </div>
+    <footer>
+      <p>
+        <a href="https://twitter.com/SilbertBrown" target="_blank">
+          <i class="fab fa-twitter"></i> Twitter
+        </a>
+        |
+        <a
+          href="https://www.english.ox.ac.uk/people/kieran-brown"
+          target="_blank"
+        >
+          <i class="fas fa-university"></i> Faculty Webpage
+        </a>
+        |
+        <a href="mailto:kieran.brown@ell.ox.ac.uk">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        |
+        <a
+          href="https://www.rhodeshouse.ox.ac.uk/scholar-community/rhodes-scholar-bios/rhodes-scholars-class-of-2019/kieran-brown/"
+          target="_blank"
+        >
+          <i class="fas fa-university"></i> Rhodes Trust
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
