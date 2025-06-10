@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kieran Brown</title>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-papmLdNmJQp5SxUL9os5wPSQRI9jxAq7fP8ugFHZ3q8bGx2o7X5I3O4Oq5r0j9tcU4u5vSTwI9uw1WUvzzHgTg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Bell MT", Georgia, serif;
+        background-color: #f9f9f6;
+        color: #222;
+        line-height: 1.6;
+      }
+
+      a {
+        color: #004466;
+        text-decoration: none;
+      }
+
+      .nav-overlay a:hover {
+        font-weight: bold;
+      }
+
+      .banner {
+        background: url("/Images/fe-klee2.jpg") bottom / cover no-repeat;
+        height: 100px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav-overlay {
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 0.8rem 2rem;
+        border-radius: 12px;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .nav-overlay a {
+        font-size: 1.2rem;
+        font-weight: 400;
+        transition: font-weight 0.2s;
+      }
+
+      .landing {
+        max-width: 800px;
+        margin: 3rem auto;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        gap: 3rem;
+        align-items: flex-start;
+      }
+
+      /* NEW: container cropping and zooming the image */
+      .image-crop {
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        align-items: flex-start;
+        margin-top: 3rem;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* change to flex-end for bottom center crop */
+      }
+
+      .image-crop img {
+        width: 900px; /* larger than container for zoom effect */
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+        image-rendering: auto;
+      }
+
+      /* Removed the old .landing img rule to avoid conflict */
+
+      .contact-box {
+        background-color: hsla(60, 5%, 92%, 0.708);
+        padding: 1rem;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        line-height: 1.4;
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto 2rem;
+      }
+
+      .summary {
+        font-size: 1.1rem;
+        max-width: 600px;
+        text-align: justify;
+      }
+
+      .summary h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .summary h2 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-weight: normal;
+        font-size: 1rem;
+        color: #555;
+      }
+
+      footer {
+        margin-top: 4rem;
+        padding: 2rem;
+        border-top: 1px solid #cccccc;
+        text-align: center;
+        font-size: 0.95rem;
+      }
+
+      footer a {
+        margin: 0 0.8rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+
+      @media (min-width: 768px) {
+        .landing {
+          flex-direction: row;
+          text-align: left;
+          gap: 2rem;
+        }
+
+        .summary {
+          flex: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Banner -->
+    <div class="banner">
+      <nav class="nav-overlay">
+        <a href="/Chatgptwebsite.html">About</a>
+        <a href="/Publications.html">Publications</a>
+        <a href="/PDF.html">CV</a>
+        <a href="/consulting.html">Consulting</a>
+      </nav>
+    </div>
+
+    <!-- Landing Section -->
+    <section class="landing">
+      <div>
+        <div class="image-crop">
+          <img
+            src="/Images/000139310006_1.jpg"
+            alt="Portrait of Kieran Silbert Brown"
+          />
+        </div>
+        <div class="contact-box">
+          <p>
+            <a href="mailto:kieran.brown@ell.ox.ac.uk"
+              >kieran.brown@ell.ox.ac.uk</a
+            >
+          </p>
+          <p>
+            Somerville College<br />
+            Oxford OX2 6HD<br />
+            United Kingdom
+          </p>
+        </div>
+      </div>
+
+      <div class="summary">
+        <h1>Kieran Brown</h1>
+        <h2>(also Kieran Silbert Brown)</h2>
+        <p>
+          I am a researcher and lecturer at the University of Oxford, working
+          primarily on literature and economics (in the so-called 'Economic
+          Humanities'). In my spare time, I also consult on economic
+          development, green energy and industrialisation. As a Rhodes Scholar
+          (South Africa at-Large & Hertford, 2019), I received my DPhil (PhD) in
+          English from Hertford College, Oxford, in November 2024. I am
+          currently working on turning my dissertation, on Walter Benjamin's
+          economic writings, into a monograph.
+        </p>
+        <p>
+          I completed my undergraduate and honours degrees in economics and
+          literature at the University of Cape Town, South Africa, where I grew
+          up. In 2020, I received my Masters degree in English (1900-present)
+          from the University of Oxford, having written a dissertation on Samuel
+          Beckett's <em>Trilogy</em> and economics. For my DPhil, I received
+          funding from the Rhodes Scholarship, Skye Foundation Scholarship and
+          Scatcherd European Scholarship. During this time I was also a visiting
+          research at the
+          <a
+            href="https://www.philosophie.hu-berlin.de/en/sections/politik/jaeggi/guests/standardseite"
+            target="blank"
+            >Humboldt University of Berlin</a
+          >
+          (2023) and the University of Cape Town (2024).
+        </p>
+        <p>
+          I have a forthcoming edited collection with Palgrave Macmillan due to
+          be published at the end of the year, entitled
+          <em
+            >Inflationary Modernities: Literature, Culture and Economy after
+            1789</em
+          >, and have published widely in peer reviewed journals on modernism,
+          economy and critical theory.
+        </p>
+        <p>I lecture at Somerville College, Oxford.</p>
+      </div>
+    </section>
+
+    <!-- Placeholder Sections -->
+    <section id="about"></section>
+    <section id="publications"></section>
+    <section id="consulting"></section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        <a href="https://twitter.com/SilbertBrown" target="_blank">
+          <i class="fab fa-twitter"></i> Twitter
+        </a>
+        |
+        <a
+          href="https://www.english.ox.ac.uk/people/kieran-brown"
+          target="_blank"
+        >
+          <i class="fas fa-university"></i> Faculty Webpage
+        </a>
+        |
+        <a href="mailto:kieran.brown@ell.ox.ac.uk">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        |
+        <a
+          href="https://www.rhodeshouse.ox.ac.uk/scholar-community/rhodes-scholar-bios/rhodes-scholars-class-of-2019/kieran-brown/"
+          target="_blank"
+        >
+          <i class="fas fa-university"></i> Rhodes Trust
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
